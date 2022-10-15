@@ -27,12 +27,12 @@ export default function Motivation() {
                     <h2 id='프로젝트-소개'><span>프로젝트 소개</span></h2>
                     <p>
                         <Link href='https://robin3565.github.io/motivation-app/'>
-                            <a className="text-blue-600 text-2xl font-bold" target='_blank'>Motivation Demo 바로가기 👉</a>
+                            <a className="text-blue-600 text-2xl font-bold" target='_blank' rel='noopener noreferrer'>Motivation Demo 바로가기 👉</a>
                         </Link>
                     </p>
                     <p className="flex">
                         <Link href='https://github.com/robin3565/motivation-app/'>
-                            <a className="text-blue-600 text-2xl font-bold" target='_blank'>
+                            <a className="text-blue-600 text-2xl font-bold" target='_blank' rel='noopener noreferrer'>
                                 <span>Motivation Github 페이지 </span>
                             </a>
                         </Link>

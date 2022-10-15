@@ -21,7 +21,7 @@ export default function AboutPage() {
                             <hr />
                             <p><strong>📧 Email | </strong><span>knews2@naver.com</span></p>
                             <p><strong>🐱 Github | </strong>
-                                <a href='https://github.com/robin3565' target='_blank'>https://github.com/robin3565</a></p>
+                                <a href='https://github.com/robin3565' target='_blank' rel='noopener noreferrer'>https://github.com/robin3565</a></p>
                         </div>
                     </div>
 

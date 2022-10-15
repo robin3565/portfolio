@@ -25,12 +25,12 @@ export default function Dona() {
                     <h2 id='프로젝트-소개'>프로젝트 소개</h2>
                     <p>
                         <Link href='https://robin3565.github.io/dona-clone/'>
-                            <a className="text-blue-600 text-2xl font-bold" target='_blank'>Dona Clone App Demo 바로가기 👉</a>
+                            <a className="text-blue-600 text-2xl font-bold" target='_blank' rel='noopener noreferrer'>Dona Clone App Demo 바로가기 👉</a>
                         </Link>
                     </p>
                     <p className="flex">
                         <Link href='https://github.com/robin3565/dona-clone/'>
-                            <a className="text-blue-600 text-2xl font-bold" target='_blank'>
+                            <a className="text-blue-600 text-2xl font-bold" target='_blank' rel='noopener noreferrer'>
                                 <span>Dona Clone Github 페이지 </span>
                             </a>
                         </Link>

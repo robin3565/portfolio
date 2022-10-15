@@ -23,12 +23,12 @@ export default function Netflix() {
                     <h2 id='프로젝트-소개'><span>프로젝트 소개</span></h2>
                     <p>
                         <Link href='https://netflix-clone-kohl-xi.vercel.app/'>
-                            <a className="text-blue-600 text-2xl font-bold" target='_blank'>Netflix Clone Demo 바로가기 👉</a>
+                            <a className="text-blue-600 text-2xl font-bold" target='_blank' rel='noopener noreferrer'>Netflix Clone Demo 바로가기 👉</a>
                         </Link>
                     </p>
                     <p className="flex">
                         <Link href='https://github.com/robin3565/netflix-clone-React/'>
-                            <a className="text-blue-600 text-2xl font-bold" target='_blank'>
+                            <a className="text-blue-600 text-2xl font-bold" target='_blank' rel='noopener noreferrer'>
                                 <span>Netflix Clone Github 페이지 </span>
                             </a>
                         </Link>

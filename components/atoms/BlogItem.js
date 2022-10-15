@@ -30,7 +30,7 @@ export default function BlogItem({ data, hash }) {
 
     return (
         <Link href={url}>
-            <a target='_blank' className={showItem ? 'visible' : 'hidden'}>
+            <a target='_blank' rel='noopener noreferrer' className={showItem ? 'visible' : 'hidden'}>
                 <div className="rounded-large p-6 m-3 flex flex-col border bg-slate-100 hover:drop-shadow-xl">
                     <Image
                         className="rounded-t-large"
