@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -24,8 +25,11 @@ export default function ProjectItem({ data, hash }) {
         <Link href={`projects/${path}`}>
             <a className={`${showItem ? 'visible' : 'hidden'} project__wrapper`}>
                 <div className="project__inner">
-                    <img
-                        className="project__item--img rounded-large border-2 border-slate-800 bg-cover"
+                    <Image
+                        width={600}
+                        height={400}
+                        layout='responsive'
+                        className="rounded-large bg-cover"
                         src={imgUrl}
                         loading='lazy' />
                     <div className="project__items--hover rounded-large">

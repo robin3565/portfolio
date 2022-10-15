@@ -1,3 +1,4 @@
+import Image from "next/image";
 import BackButton from "../atoms/BackButton";
 
 export default function Wanted() {
@@ -40,7 +41,13 @@ export default function Wanted() {
                     </ul>
                     <h2 id='회원가입'><span>회원가입</span></h2>
                     <p className="m-0"><span>1. 최소한 이메일, 비밀번호 input, 제출 button을 갖도록 구성해주세요</span></p>
-                    <img src="/wanted-01.png" />
+                    <Image
+                        className="rounded-large"
+                        alt="code"
+                        src={"/wanted-01.png"}
+                        loading='lazy'
+                        width={900}
+                        height={645} />
                     <p><span>2. 이메일과 비밀번호의 유효성을 확인합니다.</span></p>
                     <ul className="list-disc">
                         <li><span>이메일 조건 : 최소 </span><code>@</code><span>, </span><code>.</code><span> 포함</span></li>
@@ -49,18 +56,36 @@ export default function Wanted() {
                     </ul>
                     <p className="m-0"><span>조건이 다 만족되었을 경우에만 setBtnActive 값을 true로 변경시켰고, 그 값은 button의 disabled 속성으로 넣어 버튼 활성화 여부를
                         제어했습니다.</span></p>
-                    <img src="/wanted-02.png" />
+                    <Image
+                        className="rounded-large"
+                        alt="code"
+                        src={"/wanted-02.png"}
+                        loading='lazy'
+                        width={900}
+                        height={690} />
                     <p><span>3. 로그인 API를 호출하고, 올바른 응답을 받았을 때 루트 경로로 이동시켜주세요.</span></p>
                     <ul className="list-disc">
                         <li><span>응답으로 받은 토큰은 로컬 스토리지에 저장해주세요.</span></li>
                     </ul>
                     <p className="m-0"><span>로그인 API는 mock api로 구현해 실행했습니다. 회원가입시 token을 저장하고 루트 경로로 리다이렉트 했습니다.</span></p>
-                    <img src="/wanted-03.png" />
+                    <Image
+                        className="rounded-large"
+                        alt="code"
+                        src={"/wanted-03.png"}
+                        loading='lazy'
+                        width={900}
+                        height={800} />
                     <h3 id='로그인'><span>로그인</span></h3>
                     <p><span>1. 최소한 이메일, 비밀번호 input, 제출 button을 갖도록 구성해주세요.</span></p>
                     <p><span>2. 이메일과 비밀번호의 유효성을 확인합니다.</span></p>
                     <p className="m-0"><span>위 두 가지는 회원가입시 구현했던 것과 구현 방법이 같습니다.</span></p>
-                    <img src="/wanted-04.png" />
+                    <Image
+                        className="rounded-large"
+                        alt="code"
+                        src={"/wanted-04.png"}
+                        loading='lazy'
+                        width={900}
+                        height={900} />
                     <p><span>3. 로그인 API를 호출하고, 올바른 응답을 받았을 때 루트 경로로 이동시켜주세요.</span></p>
                     <ul className="list-disc">
                         <li><span>응답으로 받은 토큰은 로컬 스토리지에 저장해주세요</span></li>
@@ -68,7 +93,13 @@ export default function Wanted() {
                         <li><span>어떤 경우든 토큰이 유효하지 않다면 사용자에게 알리고 로그인 페이지로 리다이렉트 시켜주세요.</span></li>
                     </ul>
                     <p className="mb-0"><span>마찬가지로 응답 받은 토큰은 로컬 스토리지에 저장합니다. 그리고 토큰이 이미 존재할 경우 다시 루트 경로로 리다이렉트 합니다.</span></p>
-                    <img src="/wanted-05.png" />
+                    <Image
+                        className="rounded-large"
+                        alt="code"
+                        src={"/wanted-05.png"}
+                        loading='lazy'
+                        width={900}
+                        height={950} />
                 </div>
             </div>
         </div>

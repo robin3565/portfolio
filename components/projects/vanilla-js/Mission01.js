@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import BackButton from '../../atoms/BackButton'
 export default function Misson01() {
     return (
@@ -37,11 +38,23 @@ export default function Misson01() {
                     <p className="text-xl"><span><strong>✔️ Todolist 컴포넌트(=생성자 함수) 작성</strong></span></p>
                     <p className="m-0"><span>필수 미션은 </span><strong><code>1) 파라미터로 data를 넘겨 받고</code></strong><span>, html div 태그에 데이터를 보여주는
                     </span><strong><code>2) render 메소드</code></strong><span>를 포함하는 Todolist 생성자 함수를 구현하는 것입니다.</span></p>
-                    <img src='/vanillaJS-01.png' alt="생성자 함수 코드" />
+                    <Image
+                        className="rounded-large"
+                        alt="code"
+                        src={"/vanillaJS-01.png"}
+                        loading='lazy'
+                        width={900}
+                        height={700} />
                     <h3 id='2-예외-처리'><span>2. 예외 처리</span></h3>
                     <p className="m-0">발생할 수 있는 예외 중에서 <strong><code>1) 인스턴스 생성 때 new 키워드가 없을 경우</code></strong>와
                         <strong><code>2) 올바르지 않은 데이터일 경우</code></strong> 두 가지에 예외 처리를 구현하였습니다.</p>
-                    <img src='/vanillaJS-01-02.png' alt="예외 처리 코드" />
+                        <Image
+                        className="rounded-large"
+                        alt="code"
+                        src={"/vanillaJS-01-02.png"}
+                        loading='lazy'
+                        width={900}
+                        height={800} />
                     <p>데이터 예외 처리를 구현하다 문득 더 많은 예외가 있을텐데 그 경우 어떻게 처리를 해줘야하나 궁금해서 질문을 남겼습니다. 답변은 ‘할 수 있는 만큼 꼼꼼하게 해주는 게 좋다’는 것! 개발을 할 때 예외 처리를 해야한다는 것은 알지만, 꼼꼼하게 하지는 못했던 것 같은데 앞으로 예외 처리를 철저하게 해주는 것도 중요하다는 것을 배울 수 있었습니다.</p>
                     <h3 id='3-컴포넌트와-상태-관리'>3. 컴포넌트와 상태 관리</h3>
                     <p><span>컴포넌트는 </span><code>상태(state)</code><span> 가 변화함에 따라 </span><code>렌더링</code><span>이 이루어지는 패턴입니다. 앞에
@@ -49,7 +62,13 @@ export default function Misson01() {
                         있습니다.</span></p>
                     <p className="m-0"><span>마지막으로 위와 같은 원리로 </span><strong><span>setState 메소드를 통해 상태 변화에 따라 컴포넌트를 재렌더링</span></strong><span>하도록
                         구현했습니다.</span></p>
-                    <img src='/vanillaJS-01-03.png' alt="컴포넌트 코드" />
+                        <Image
+                        className="rounded-large"
+                        alt="code"
+                        src={"/vanillaJS-01-03.png"}
+                        loading='lazy'
+                        width={900}
+                        height={600} />
                     <p><span>그 동안은 이전에 jQuery를 거의 사용해보지 않아서 웹 컴포넌트의 원리, 장점 등에 대한 이해가 잘 와닿지는 않았습니다. 개념적으로는 이해가 되더라도 이전에 DOM을 직접
                         제어하던 경험이 많지 않기 때문에 웹 컴포넌트의 변화나 장점을 잘 공감할 수 없던 것이죠. 다만, React를 처음 접했을 때 state 개념이 낯설었는데 결론적으로 state가
                         변화할 때 재렌더링이 이루어진다는 점, 그리고 setState 메소드로 제어한다는 웹 컴포넌트의 원리를 첫 번째 미션을 통해 제대로 이해할 수 있는 기회가 되었던 것

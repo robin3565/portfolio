@@ -37,7 +37,10 @@ export default function Motivation() {
                                 <span>Motivation Github 페이지 </span>
                             </a>
                         </Link>
-                        <img className="rounded-full w-8 h-8" src="/github.png" />
+                        <Image 
+                            width="30px"
+                            height="30px"
+                            className="rounded-full" src="/github.png" />
                     </p>
                     <p>매달 하나씩 진행하는 월간 프로젝트! <br />
                         8월의 첫 번째 프로젝트로 모티베이션 어플리케이션을 만들어 보았습니다.</p>

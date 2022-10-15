@@ -34,7 +34,10 @@ export default function Dona() {
                                 <span>Dona Clone Github 페이지 </span>
                             </a>
                         </Link>
-                        <img className="rounded-full w-8 h-8" src="/github.png" />
+                        <Image
+                            width="30px"
+                            height="30px"
+                            className="rounded-full" src="/github.png" />
                     </p>
                     <p>매달 하나씩 진행하는 월간 프로젝트! <br />
                         8월의 두 번째 프로젝트로 Todo App인 <strong>Dona 클론코딩</strong>을 해보았습니다.</p>
@@ -80,7 +83,7 @@ export default function Dona() {
                     <p><span>할 일, 카테고리 생성시 위, 아래로 살짝 움직이는 애니메이션 효과를 구현했습니다.</span></p>
                     <h3 id='5-코드-정리'><span>5. 코드 정리</span></h3>
                     <p><span>Context API를 사용하면서 기록해놓고 싶은 부분들을 </span><strong><span>블로그</span></strong><span>에
-                            정리했습니다.</span> <span className="text-blue-600"><strong>Context API 글 바로가기</strong></span></p>
+                        정리했습니다.</span> <span className="text-blue-600"><strong>Context API 글 바로가기</strong></span></p>
                     <h2 id='느낀점'><span>느낀점</span></h2>
                     <p><span>이번 클론코딩을 통해 단순한 투두리스트라도 제대로 만들어보고자 했습니다. 만드는 과정에서 벨로퍼트님의 </span><a
                         href='https://react.vlpt.us/'><span>리액트 GITBook</span></a><span> 을 많이 참고했습니다.</span></p>

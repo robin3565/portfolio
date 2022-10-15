@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function AboutPage() {
     return (
         <div class='typora-export os-windows'>
@@ -6,7 +8,9 @@ export default function AboutPage() {
                     <p className="text-3xl md:text-4xl font-semibold">안녕하세요, 반갑습니다. <br />개발자
                         <span className="text-gray-500 font-bold"> 김유선</span>입니다!</p>
                     <div className="flex flex-col md:flex-row items-center">
-                        <img
+                        <Image
+                            width="300px"
+                            height="300px"
                             className="w-9/10 md:w-1/4 pr-10"
                             alt='프로필 이미지'
                             src='/pro.png' />

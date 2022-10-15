@@ -16,10 +16,10 @@ export default function Instagram() {
                         loading='lazy'
                         width={3000}
                         height={2000} />
-                    <p><strong><span>Keywords:</span></strong><span> SPA, localStorage, Firebase</span><br/>
-                    <strong><span>Duration:</span></strong><span> 2022.08.25 ~ 2022.09.20</span><br/>
-                    <strong><span>Tool:</span></strong><span> React, Styled-components, React-Router-Dom, Firebase,
-                        throttle</span></p>
+                    <p><strong><span>Keywords:</span></strong><span> SPA, localStorage, Firebase</span><br />
+                        <strong><span>Duration:</span></strong><span> 2022.08.25 ~ 2022.09.20</span><br />
+                        <strong><span>Tool:</span></strong><span> React, Styled-components, React-Router-Dom, Firebase,
+                            throttle</span></p>
                     <p className='text-2xl font-medium'>인스타그램은 서비스 내에 다양한 기능을 포함하고 있습니다. 각 기능들을 직접 구현해보며 JS, React를 보다 더 잘 사용해보고자 하였고, 실제 서비스되고 있는 기능들의
                         특징들을 직접 구현을 통해 파악하고자 했습니다.</p>
                     <p className='text-2xl font-medium'>
@@ -37,7 +37,10 @@ export default function Instagram() {
                                 <span>Instagram Clone Github 페이지 </span>
                             </a>
                         </Link>
-                        <img className="rounded-full w-8 h-8" src="/github.png" />
+                        <Image
+                            width="30px"
+                            height="30px"
+                            className="rounded-full" src="/github.png" />
                     </p>
                     <p>매달 하나씩 진행하는 월간 프로젝트! <br />
                         9월 프로젝트로 <strong>Firebase를 이용한 </strong><strong>인스타그램</strong>을 클론코딩 해보았습니다.
@@ -168,7 +171,7 @@ export default function Instagram() {
                         height={560} />
                     <p><span>유저들의 전체 사진을 볼 수 있는 페이지를 구현했습니다. 그냥 이미지를 나열할 경우 마지막 줄의 이미지가 3개 미만인 경우 이미지가 왼쪽 정렬이 아닌 가운데 정렬이 되는 css
                         문제가 있었습니다. 이는 이미지를 3개씩 감싸는 div 태그를 생성하는 메소드를 만들어 css 문제를 해결할 수 있었습니다.</span></p>
-                    <InstaExploreCode/>
+                    <InstaExploreCode />
                 </div>
             </div>
         </div>

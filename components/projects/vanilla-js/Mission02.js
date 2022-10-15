@@ -1,3 +1,4 @@
+import Image from "next/image";
 import BackButton from "../../atoms/BackButton";
 
 export default function Misson02() {
@@ -15,7 +16,7 @@ export default function Misson02() {
                         <span><strong>1. 웹 컴포넌트 이해</strong>: 느슨한 결합도(최소한의 의존성)를 고려한 구조화</span><br />
                         <span><strong>2. DOM API</strong>: 이벤트 핸들러를 통한 DOM 조작 이해</span><br />
                         <span><strong>3. 이벤트 최적화</strong>: 이벤트 위임을 통한 이벤트 제어</span>
-                        </p>
+                    </p>
 
                     <h2 id='📍-미션'><strong><span>📍</span></strong><span> 미션</span></h2>
                     <p><span>2주차 미션은 1주차 때 진행한 TodoList 미션을 업그레이드 하는 것입니다. 데이터를 받아와 렌더링하는 기능만 있었던 TodoList에 데이터 추가, 삭제, 그리고 데이터
@@ -52,22 +53,58 @@ export default function Misson02() {
                     </p><p>이러한 최소한의 책임과 의존성을 고려하기 위해 <strong>컴포넌트의 파라미터에 함수를 넣는 방법</strong>을 이용해 구현합니다.</p>
                     <p className="text-xl"><strong><span>(1) App.js</span></strong></p>
                     <p className="m-0">App의 역할은 TodoInput과 TodoList를 관리하고, 각 컴포넌트로부터 state에 변화가 있을 때 컴포넌트에 state를 전달해 다시 화면에 렌더링 되도록 합니다.</p>
-                    <img src="/vanillaJS-02-01.png" />
+                    <Image
+                        className="rounded-large"
+                        alt="code"
+                        src={"/vanillaJS-02-01.png"}
+                        loading='lazy'
+                        width={900}
+                        height={500} />
                     <p className="text-xl"><strong><span>(2) TodoInput.js</span></strong></p>
                     <p><strong>TodoInput 컴포넌트는 Todo를 입력 받는 역할</strong>입니다.</p>
                     <p>form 태그를 먼저 생성하고 그 안에 input 태그와 추가하는 button을 추가해, form 태그에 input에 입력된 값이 state로 저장되도록 submit 이벤트를 추가했습니다.</p>
                     <p>여기서 submit 이벤트에 추가되는 메소드 onAddTodo는 TodoInput 컴포넌트 안에 직접 구현하는 것이 아니라 TodoInput 컴포넌트를 관리하고 있는 App에서 해당 메소드를 파라미터로 받도록 구현했습니다.</p>
                     <p>그 이유는 TodoInput 컴포넌트의 역할이 할 일을 ‘입력 받는 것’이기 때문에 할 일을 입력 받아 state에 직접적으로 관여하는 것은 피하기 위해서입니다. 또한 컴포넌트는 재사용이 목적이기 때문에 하나의 컴포넌트가 최대한 작은 단위의 일을 하도록 만들어야 합니다. 그러기 위해서 state를 관리하는 역할은 App이기 때문에 파라미터로 onAddTodo 메소드를 구현해 전달합니다.</p>
-                    <img src="/vanillaJS-02-02.png" />
-                    <img src="/vanillaJS-02-03.png" />
+                    <Image
+                        className="rounded-large"
+                        alt="code"
+                        src={"/vanillaJS-02-02.png"}
+                        loading='lazy'
+                        width={900}
+                        height={560} />
+                    <Image
+                        className="rounded-large"
+                        alt="code"
+                        src={"/vanillaJS-02-03.png"}
+                        loading='lazy'
+                        width={900}
+                        height={450} />
                     <p className="text-xl"><strong><span>(3) TodoList.js</span></strong></p>
                     <p><strong>TodoList의 역할은 입력 받은 Todo를 렌더링해주는 역할</strong>입니다. 추가로 Todo를 클릭할 경우 클릭된 Todo는 완료 처리(isCompleted 제어) 되는 이벤트를 추가했습니다.</p>
                     <p className="m-0">입력 받은 Todo는 state로 넘겨 받아 innerHTML으로 추가해줍니다. 그리고 Todo가 완료가 된 일이라면, 즉 data의 isCompleted 값이 true일 경우, 줄이 그어지도록 이벤트를 구현합니다. Todo 각각을 클릭하면 isCompleted 값이 바뀌고, 바뀐 데이터는 다시 렌더링되어 줄이 그어지는 onCheckTodo 메소드를 구현했습니다. onCheckTodo 메소드는 state 관리를 위해 마찬가지로 App에 구현해 TodoList의 파라미터로 넘겨 받습니다.</p>
-                    <img src="/vanillaJS-02-04.png" />
-                    <img src="/vanillaJS-02-05.png" />
+                    <Image
+                        className="rounded-large"
+                        alt="code"
+                        src={"/vanillaJS-02-04.png"}
+                        loading='lazy'
+                        width={900}
+                        height={670} />
+                    <Image
+                        className="rounded-large"
+                        alt="code"
+                        src={"/vanillaJS-02-05.png"}
+                        loading='lazy'
+                        width={900}
+                        height={450} />
                     <p className="text-xl"><strong><span>(4) TodoCount.js</span></strong></p>
                     <p className="m-0"><strong>TodoCount는 Todo 전체 개수와 완료된 Todo 개수를 세서 렌더링</strong> 합니다. 할 일이 추가되거나 할 일을 완료한 경우 Count 값은 바뀝니다.</p>
-                    <img src="/vanillaJS-02-06.png" />
+                    <Image
+                        className="rounded-large"
+                        alt="code"
+                        src={"/vanillaJS-02-06.png"}
+                        loading='lazy'
+                        width={900}
+                        height={500} />
                     <h3 id='3-event-최적화'>3. Event 최적화</h3>
                     <p>이벤트 최적화와 관련해 <strong>Event 전파와 위임 개념과 예제</strong>를 정리했습니다.
                         <a href='https://www.notion.so/Event-771ea661d437482d928583ffc88bb82b'><span className="text-blue-600"> <strong>(Event 전파와 위임 정리글 바로가기)</strong></span></a></p>
@@ -81,13 +118,25 @@ export default function Misson02() {
                     </span><code>button</code><span> 의 이벤트는 버블링으로 인해 </span><code>li</code><span> 이벤트도 실행되어 오류가 발생합니다. (이미
                         삭제된 </span><code>li</code><span> 요소이기 때문에 </span><code>li</code><span> 이벤트 실행 불가로 인한 오류)</span></p>
                     <p><span>해당 이벤트 버블링을 막기 위해 button 이벤트에 e.stopPropagation()을 넣습니다.</span></p>
-                    <img src="/vanillaJS-02-07.png" />
+                    <Image
+                        className="rounded-large"
+                        alt="code"
+                        src={"/vanillaJS-02-07.png"}
+                        loading='lazy'
+                        width={900}
+                        height={800} />
                     <p className="text-xl"><strong>✔️ 이벤트 위임을 사용하는 경우</strong></p>
                     <p><span>이벤트 위임은 하위 요소에 각각 이벤트를 붙이지 않고 상위 요소에서 하위 요소의 이벤트를 제어하는 방식입니다. 따라서 상위 요소인
                     </span><code>ul</code><span> 요소에 이벤트 핸들러를 바인딩해 </span><code>span</code>과 <code>button</code><span> 요소의 이벤트를 제어할 수 있습니다.</span></p>
                     <p className="m-0"><code>ul</code><span> 에 이벤트를 바인딩 하더라도 이벤트 버블링으로 인해 하위 요소에서도 이벤트가 실행됩니다. 하지만 각각의 요소마다 실행되야하는 이벤트가 다르므로
                     </span><code>Element.nodeName</code><span> 을 이용해 이벤트를 제어합니다. 즉, 이벤트가 발생하는 요소가 span일 경우, button일 경우를 나눠 각각 이벤트를 실행시킵니다.</span></p>
-                    <img src="/vanillaJS-02-08.png" />
+                    <Image
+                        className="rounded-large"
+                        alt="code"
+                        src={"/vanillaJS-02-08.png"}
+                        loading='lazy'
+                        width={900}
+                        height={740} />
                 </div>
             </div>
         </div>
