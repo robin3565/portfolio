@@ -11,7 +11,7 @@ export default function Instagram() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/img3.jpg'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a5af5b5a-03a5-44b5-b0d1-a7ea41828755/img3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T073750Z&X-Amz-Expires=86400&X-Amz-Signature=a5544a3508344cb1607bd6ea57bcf547c37592667a551ccf1631de854ef98afe&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22img3.jpg%22&x-id=GetObject'}
                         loading='lazy'
                         width={3000}
                         height={2000} />
@@ -65,7 +65,7 @@ export default function Instagram() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/insta-login.gif'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/64b3eb12-0126-457a-8621-befbe7cd8c09/insta-login.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T073842Z&X-Amz-Expires=86400&X-Amz-Signature=ead862af7b73ed448118e2c18bbba52f3e4a2db3c1cc5a76448c08a1de4ce3fc&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22insta-login.gif%22&x-id=GetObject'}
                         loading='lazy'
                         width={900}
                         height={560} />
@@ -80,7 +80,7 @@ export default function Instagram() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/insta-01.png'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dc610e28-bd50-48d3-a497-d8714c3da025/insta-01.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T073945Z&X-Amz-Expires=86400&X-Amz-Signature=929d9839f828d4c7b59a0f02a466d7f16986200851ea00ad028c13f4f48f9bf8&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22insta-01.png%22&x-id=GetObject'}
                         loading='lazy'
                         width={900}
                         height={250} />
@@ -90,7 +90,7 @@ export default function Instagram() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/insta-02.png'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5be19169-337b-4185-996f-9fcff77c2c05/insta-02.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T074048Z&X-Amz-Expires=86400&X-Amz-Signature=7add33be2ae717e4f860dc2f90803335477fc47b898f5285e63e8098811784e8&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22insta-02.png%22&x-id=GetObject'}
                         loading='lazy'
                         width={900}
                         height={400} />
@@ -99,7 +99,7 @@ export default function Instagram() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/insta-img.gif'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b9b81a9a-c9e5-4a0e-9638-815c1fe1c653/insta-img.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T074138Z&X-Amz-Expires=86400&X-Amz-Signature=de1d9788e1c1fccec43383f2bae0f5d2f0e8a3d809195d38b324640fa075b566&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22insta-img.gif%22&x-id=GetObject'}
                         loading='lazy'
                         width={900}
                         height={560} />
@@ -112,7 +112,7 @@ export default function Instagram() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/insta-03.png'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/12756447-7c42-4021-a8bb-9d3edb153c97/insta-03.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T074157Z&X-Amz-Expires=86400&X-Amz-Signature=73f51857b89d5f2296c144d8a6380edc2be1f19eade1f9fdfdd38f38c6b8ce44&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22insta-03.png%22&x-id=GetObject'}
                         loading='lazy'
                         width={900}
                         height={300} />
@@ -126,7 +126,7 @@ export default function Instagram() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/insta-scroll.gif'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/40c300cf-7a66-442f-87d1-20e306c8965c/insta-scroll.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T074224Z&X-Amz-Expires=86400&X-Amz-Signature=2374bfb8cb764331f1be31846829abb579d2b3ee416c2a266f88587edee873e9&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22insta-scroll.gif%22&x-id=GetObject'}
                         loading='lazy'
                         width={900}
                         height={560} />
@@ -138,7 +138,7 @@ export default function Instagram() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/insta-like.gif'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/486f4ef0-c4ba-4633-9733-b87c4ec5921b/insta-like.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T074322Z&X-Amz-Expires=86400&X-Amz-Signature=2bb82d46cb6328ffaa46ff22815bcea7ecb8c08e7e3186ee1dd777fba5609289&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22insta-like.gif%22&x-id=GetObject'}
                         loading='lazy'
                         width={900}
                         height={560} />
@@ -149,7 +149,7 @@ export default function Instagram() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/insta-search.gif'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86c52c46-2d85-4fdc-bea8-94308fd77155/insta-search.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T074336Z&X-Amz-Expires=86400&X-Amz-Signature=6e649a54f79acf92716468c5085c07ddc2f1b58ec7418507b27312d9e7089e16&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22insta-search.gif%22&x-id=GetObject'}
                         loading='lazy'
                         width={900}
                         height={560} />
@@ -158,7 +158,7 @@ export default function Instagram() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/insta-04.png'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f272ffa8-5ee6-48dc-b73b-16c9d2e3e7c7/insta-04.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T074405Z&X-Amz-Expires=86400&X-Amz-Signature=bf98da8b401d7fbb0d8da3806ecedb73ad3d7d917c5534270213bb93dabbf51a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22insta-04.png%22&x-id=GetObject'}
                         loading='lazy'
                         width={900}
                         height={300} />
@@ -167,7 +167,7 @@ export default function Instagram() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/insta-router.gif'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a3671496-cde1-4c1d-8183-d41261d99883/insta-router.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T074440Z&X-Amz-Expires=86400&X-Amz-Signature=be4b9cdd6aaed3e3546a48a146fbcaf5055f2f7b3820631cbf534014e9927de5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22insta-router.gif%22&x-id=GetObject'}
                         loading='lazy'
                         width={900}
                         height={560} />
@@ -177,7 +177,7 @@ export default function Instagram() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/insta-profile.gif'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/77c62c7c-44fb-42a7-b7ff-e1e23c1fc224/insta-profile.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T074558Z&X-Amz-Expires=86400&X-Amz-Signature=28d9e9bee218c909e228d25449d88305a602e722fcc6b1ab82bc6e0a1fd64d0f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22insta-profile.gif%22&x-id=GetObject'}
                         loading='lazy'
                         width={900}
                         height={560} />
@@ -188,7 +188,7 @@ export default function Instagram() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/insta-explore.gif'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a5fbaa1d-b5d9-4740-97a9-589dc9743d01/insta-explore.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T074609Z&X-Amz-Expires=86400&X-Amz-Signature=2d63837326c85d73759e061fcdebb1dff7d7011f51c6d51a30de606079196108&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22insta-explore.gif%22&x-id=GetObject'}
                         loading='lazy'
                         width={900}
                         height={560} />
@@ -197,7 +197,7 @@ export default function Instagram() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/insta-05.png'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0f6c490a-a22e-4e40-83d3-732648cd406c/insta-05.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T074620Z&X-Amz-Expires=86400&X-Amz-Signature=de51215fc36db7c2f377db3288673f120293dcc58c909df19ce0ba9217698342&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22insta-05.png%22&x-id=GetObject'}
                         loading='lazy'
                         width={900}
                         height={450} />

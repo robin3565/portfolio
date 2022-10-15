@@ -12,7 +12,7 @@ export default function Motivation() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/img1.jpg'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c1ad4b0b-a122-4cb7-95b9-6762b2016e20/img1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T074732Z&X-Amz-Expires=86400&X-Amz-Signature=46aa58191d7e4c5c970e1f5ac66e992c5d0ace3b80df8f2afc5ab0359991d9fc&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22img1.jpg%22&x-id=GetObject'}
                         loading='lazy'
                         width={3000}
                         height={2000} />
@@ -52,7 +52,7 @@ export default function Motivation() {
                         <Image
                             className="rounded-large"
                             alt="motivation-plan"
-                            src={'/moti-plan.png'}
+                            src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f3f6c2bf-f7b6-4a0d-a9ea-5960695286fb/moti-plan.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T074754Z&X-Amz-Expires=86400&X-Amz-Signature=a6e6035d48b1e5fcd24275944ab087f877001e7de3402c067d252401a8758b4b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22moti-plan.PNG.png%22&x-id=GetObject'}
                             loading='lazy'
                             width={450}
                             height={450} />
@@ -67,7 +67,7 @@ export default function Motivation() {
                         <Image
                             className="rounded-large"
                             alt="explain-motivation"
-                            src={'/motivation.jpg'}
+                            src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1cadb4a4-d8d8-483b-902f-d1c0eacdbdf5/motivation.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T074847Z&X-Amz-Expires=86400&X-Amz-Signature=6b55a3bf0d0fa3a118a03ced14249eb46aceb0ef1df872d692ad6d42bd51c3a6&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22motivation.jpg%22&x-id=GetObject'}
                             loading='lazy'
                             width={450}
                             height={450} />
@@ -98,7 +98,7 @@ export default function Motivation() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/moti-01.png'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d9416af7-33cc-470d-b1ef-3607201864b9/moti-01.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T075534Z&X-Amz-Expires=86400&X-Amz-Signature=852104707640298146057212c077877dc7ace5e4525e2fc3626a6770b3834699&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22moti-01.png%22&x-id=GetObject'}
                         loading='lazy'
                         width={900}
                         height={500} />
@@ -106,7 +106,7 @@ export default function Motivation() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/moti-btn.gif'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dbfb6b19-93b5-44df-8c48-6dac85182aea/moti-btn.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T075414Z&X-Amz-Expires=86400&X-Amz-Signature=aa14de7d8859752ea0c5c46c895ee86ca9b0c45523e7771f9aef5b76f5ec1ce4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22moti-btn.gif%22&x-id=GetObject'}
                         loading='lazy'
                         width={900}
                         height={560} />
@@ -117,7 +117,7 @@ export default function Motivation() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/moti-02.png'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7f6d7ba3-0ee0-4bf2-bdf5-12be8d84081d/moti-02.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T075440Z&X-Amz-Expires=86400&X-Amz-Signature=15421bf8b4f200b86ef7ffeae5f08dd02719dd2f6371afabee54c913971d7425&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22moti-02.png%22&x-id=GetObject'}
                         loading='lazy'
                         width={900}
                         height={340} />
@@ -126,7 +126,7 @@ export default function Motivation() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/moti-03.png'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/176d5227-6f88-4107-9c29-1fae4fffe975/moti-03.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T075501Z&X-Amz-Expires=86400&X-Amz-Signature=884b9b75c95f2c15836b59873bff09dc26f49ff66a4220467c413495eb6ef140&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22moti-03.png%22&x-id=GetObject'}
                         loading='lazy'
                         width={900}
                         height={380} />
@@ -134,7 +134,7 @@ export default function Motivation() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/moti-toggle.gif'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f869f6b5-f4a2-48d4-b841-4852edc96be5/moti-toggle.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T075736Z&X-Amz-Expires=86400&X-Amz-Signature=43e4b4fcd4d21536c29e6b9fefcb453aed00c65f02cce90427bbfefe019c4364&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22moti-toggle.gif%22&x-id=GetObject'}
                         loading='lazy'
                         width={900}
                         height={560} />

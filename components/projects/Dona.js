@@ -12,7 +12,7 @@ export default function Dona() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/img2.jpg'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9058555a-7633-4fbc-90f6-97d4e0a4e1cb/img2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T075906Z&X-Amz-Expires=86400&X-Amz-Signature=7662a74879a8cd6d44dc82b484ad2b527c0eb258801026eb2a69a266a94c0df7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22img2.jpg%22&x-id=GetObject'}
                         width={900}
                         height={600} />
                     <p>
@@ -56,7 +56,7 @@ export default function Dona() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/dona-id.gif'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/82c72693-673b-4d09-b1a0-ea9c16a91cff/dona-id.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T075957Z&X-Amz-Expires=86400&X-Amz-Signature=22e4212d3d3d690290fa1d716ddbf8a35500a9237d6844416976541b0f986a74&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22dona-id.gif%22&x-id=GetObject'}
                         width={900}
                         height={480} />
                     <p>첫 페이지로, 이름을 입력하는 모달을 보여줍니다. 해당 모달창에 이름을 입력하면 이름이 localStorage에 저장되고, 저장된 이름은 인사말과 함께 렌더링됩니다.</p>
@@ -65,7 +65,7 @@ export default function Dona() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/dona-todo.gif'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7c4292ab-9aef-44b6-a52f-b638404ad15e/dona-todo.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T080013Z&X-Amz-Expires=86400&X-Amz-Signature=f84116cd3fa7512338625a19eda8738e956e3d638f02ece6db89d3105ccf7622&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22dona-todo.gif%22&x-id=GetObject'}
                         width={900}
                         height={480} />
                     <p><span>Todo 입력창에 할 일을 입력하면, localStorage에 저장됩니다. 저장된 할 일 내용은 입력창 아래에 체크 박스와 수정, 삭제 아이콘과 함께 생성됩니다.</span>

@@ -12,7 +12,7 @@ export default function Netflix() {
                     <Image
                         className="rounded-large"
                         alt="welcome"
-                        src={'/img0.jpg'}
+                        src={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6afec282-9881-409b-ab77-abe166b9757b/img0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221015T080720Z&X-Amz-Expires=86400&X-Amz-Signature=309cf6952ac85242a9bef792349f736f71e6bfd83492366d2b94c0eca58e2fd7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22img0.jpg%22&x-id=GetObject'}
                         width={900}
                         height={600} />
                     <p><strong><span>Keywords:</span></strong><span> React, axios, swiper</span><br />
