@@ -1,7 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
 import BackButton from "../atoms/BackButton"
-import { MotiLocalStorageCode, MotiApiCode, MotiBackgroundCode } from '../codes/motivationCode'
 
 export default function Motivation() {
     return (
@@ -93,10 +92,16 @@ export default function Motivation() {
                     <p><span>디자인은 구글 북마크를 참고하여 구현했습니다. 기본 버튼이 동그란 것과, hover시 사각형의 하얀 배경이 보이는 것, 그리고 모달창의 내용이 유사합니다. 모달창은 오픈시 서서히
                         열리도록 애니메이션을 주었습니다.</span></p>
                     <h3 id='2-localstorage-저장'><span>2. localStorage 저장</span></h3>
-                    <p><span>localStorage를 사용할 때에는 문제가 생길 수 있다는 것을 염두해둬야 합니다. localStorage, session 등은 string 등 단순한 값을 넣는게 아니면
+                    <p className="m-0"><span>localStorage를 사용할 때에는 문제가 생길 수 있다는 것을 염두해둬야 합니다. localStorage, session 등은 string 등 단순한 값을 넣는게 아니면
                         JSON.parse를 사용해야 하는데, 데이터가 이상할 경우 오류가 발생할 수 있습니다. 따라서 기본값을 지정해 데이터가 오류가 발생할 경우 기본값을 리턴하도록 안전장치를
                         만들어줘야 합니다. 이러한 에러 발생에 대비해서 getItem, setItem을 맵핑하는 코드를 작성했습니다.</span></p>
-                    <MotiLocalStorageCode />
+                    <Image
+                        className="rounded-large"
+                        alt="welcome"
+                        src={'/moti-01.png'}
+                        loading='lazy'
+                        width={900}
+                        height={500} />
                     <h3 id='2-배경화면-unsplash-api'><span>3. 배경화면 (Unsplash API)</span></h3>
                     <Image
                         className="rounded-large"
@@ -109,10 +114,22 @@ export default function Motivation() {
                         Axios 라이브러리를 사용했습니다.</span></p>
                     <p><span>불러온 이미지 중 세로 대비 가로가 긴 이미지인 가로형 이미지만 저장합니다. API 내부적으로만 가로형 이미지만 불러오려고 했으나 API 내에서 해결이 되지 않아, 우선 이미지를 랜덤으로 모두
                         불러오고, 불러온 이미지 중 가로형 이미지만 다시 저장하도록 구현했습니다.</span></p>
-                    <MotiApiCode />
+                    <Image
+                        className="rounded-large"
+                        alt="welcome"
+                        src={'/moti-02.png'}
+                        loading='lazy'
+                        width={900}
+                        height={340} />
                     <p className="text-xl"><strong>배경화면 변경 버튼</strong></p>
                     <p><span>버튼 클릭 시 런던, 파리, 한국의 이미지로 변경이 가능합니다. 버튼을 누를 때마다 query가 바뀌고, query는 바뀔 때마다 fetchData 메소드를 불러옵니다.</span></p>
-                    <MotiBackgroundCode />
+                    <Image
+                        className="rounded-large"
+                        alt="welcome"
+                        src={'/moti-03.png'}
+                        loading='lazy'
+                        width={900}
+                        height={380} />
                     <h3 id='4-모티베이션-문장'><span>4. 모티베이션 문장</span></h3>
                     <Image
                         className="rounded-large"

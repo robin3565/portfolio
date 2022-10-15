@@ -1,7 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
 import BackButton from "../atoms/BackButton"
-import { InstaExploreCode, InstaPortalsCode, InstaPrivateRouteCode, InstaRegexCode, InstaSearchCode } from "../codes/instagramCode"
 export default function Instagram() {
     return (
         <div class='typora-export os-windows'>
@@ -78,11 +77,23 @@ export default function Instagram() {
                     <p><strong><span>정규표현식 유효성 검사</span></strong></p>
                     <p><span>이메일 아이디와 비밀번호의 형식이 통과되어야만 가입 버튼이 활성화 되도록 구현했습니다. 로그인, 회원가입시 발생할 수 있는 에러는 handleError 메소드를 통해 사용자가
                         어떤 error로 인해 인증이 안되고 있는지 보여줄 수 있도록 구현했습니다.</span></p>
-                    <InstaRegexCode />
+                    <Image
+                        className="rounded-large"
+                        alt="welcome"
+                        src={'/insta-01.png'}
+                        loading='lazy'
+                        width={900}
+                        height={250} />
                     <p><strong><span>Private Router</span></strong></p>
                     <p><span>로그인 된 회원이 아닐 경우 Home 화면을 비롯한 다른 페이지로는 이동이 불가능합니다. 로그인하지 않은 유저는 다른 페이지로 이동을 시동할 경우 로그인 페이지로 리다이렉트
                         됩니다.</span></p>
-                    <InstaPrivateRouteCode />
+                    <Image
+                        className="rounded-large"
+                        alt="welcome"
+                        src={'/insta-02.png'}
+                        loading='lazy'
+                        width={900}
+                        height={400} />
                     {/* 2. 이미지 모달창 */}
                     <h3 id='이미지-모달창-portal-사이즈-조정-자르기'><span>2. 이미지 모달창 (Portal, 사이즈 조정, 자르기)</span></h3>
                     <Image
@@ -98,7 +109,13 @@ export default function Instagram() {
                     <p><strong><span>React Portals를 활용한 Modal 생성</span></strong></p>
                     <p><span>부모 컴포넌트에 z-index나 overflow 속성이 있는 경우, 모달이나 팝업은 두 스타일의 우선순위가 충돌하여 방해가 될 수 있습니다. 이를 방지하고자 DOM을 선택하여
                         부모 컴포넌트의 바깥에 있는 DOM 노드로 자식을 렌더링해주는 Portals를 활용해 App 컴포넌트 바깥에 모달을 렌더링했습니다.</span></p>
-                    <InstaPortalsCode />
+                    <Image
+                        className="rounded-large"
+                        alt="welcome"
+                        src={'/insta-03.png'}
+                        loading='lazy'
+                        width={900}
+                        height={300} />
                     <p><strong><span>이미지 사이즈 조정 (react-image-file-resizer)</span></strong></p>
                     <p><span>너무 큰 사이즈의 이미지를 저장할 경우 처리에 시간이 오래 걸릴 수 있습니다. 그래서 크기를 줄이고, 일정한 크기로 이미지를 저장하기 위해
                         react-image-file-resizer 라이브러리를 사용해 이미지 크기를 조정했습니다.</span></p>
@@ -138,7 +155,13 @@ export default function Instagram() {
                         height={560} />
                     <p><span>유저 아이디를 검색하면 모든 유저 아이디에 검색한 값이 포함되어 있는지 확인하고, 포함되어 있는 유저 아이디만 필터링하는 메소드를 활용한 검색 기능입니다. 필터된 유저 아이디는
                         검색창에 렌더링 되고, 찾는 유저 아이디가 있다면 프로필 사진이나 유저 아이디 클릭시 클릭한 유저의 마이 페이지로 이동하도록 구현했습니다.</span></p>
-                    <InstaSearchCode />
+                    <Image
+                        className="rounded-large"
+                        alt="welcome"
+                        src={'/insta-04.png'}
+                        loading='lazy'
+                        width={900}
+                        height={300} />
                     {/* 6. SPA 방식 구현 */}
                     <h3 id='react-router-dom을-이용한-spa-방식-구현'><span>6. React-Router-Dom을 이용한 SPA 방식 구현</span></h3>
                     <Image
@@ -171,7 +194,13 @@ export default function Instagram() {
                         height={560} />
                     <p><span>유저들의 전체 사진을 볼 수 있는 페이지를 구현했습니다. 그냥 이미지를 나열할 경우 마지막 줄의 이미지가 3개 미만인 경우 이미지가 왼쪽 정렬이 아닌 가운데 정렬이 되는 css
                         문제가 있었습니다. 이는 이미지를 3개씩 감싸는 div 태그를 생성하는 메소드를 만들어 css 문제를 해결할 수 있었습니다.</span></p>
-                    <InstaExploreCode />
+                    <Image
+                        className="rounded-large"
+                        alt="welcome"
+                        src={'/insta-05.png'}
+                        loading='lazy'
+                        width={900}
+                        height={450} />
                 </div>
             </div>
         </div>
