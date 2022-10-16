@@ -10,22 +10,23 @@ export default function Blog({ result }) {
     const router = useRouter()
     const [hash, setHash] = useState('all');
 
+
     useEffect(() => {
         setHash(router.asPath.split('#')[1])
-    },[router])
+    }, [router])
 
     return (
         <MainLayout>
             <div
                 className="w-full md:w-1/2 pt-16">
-                <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">The contents <br/> what I learned<span className="text-gray-500">.</span></p>
-                <p className="text-xl sm:text-2xl lg:text-3xl">개발 공부를 기록합니다. <br/>기록하는 습관을 통해 더 오래 기억하려고 합니다.</p>
+                <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">The contents <br /> what I learned<span className="text-gray-500">.</span></p>
+                <p className="text-xl sm:text-2xl lg:text-3xl">개발 공부를 기록합니다. <br />기록하는 습관을 통해 더 오래 기억하려고 합니다.</p>
             </div>
 
             <div className="my-8 border-b border-primary-black">
                 <nav className="flex p-0 pb-5 flex flex-wrap">
                     {blogmenu.map((item, idx) => (
-                        <MenuItem key={idx} item={item} hash={hash}/>
+                        <MenuItem key={idx} item={item} hash={hash} />
                     ))}
                 </nav>
             </div>

@@ -2,13 +2,11 @@
   "name": "robin-blog",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://robin3565.github.io/portfolio",
   "scripts": {
     "dev": "next dev",
     "build": "CI= npm run build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin gh-pages"
+    "lint": "next lint"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
